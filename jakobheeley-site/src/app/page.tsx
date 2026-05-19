@@ -72,25 +72,8 @@ export default function HomePage() {
       </section>
 
       <section id="about" className="min-h-screen p-12">
-        <SecHeader title="About" />
-
-        {/*TODO: make this more appealing, add photo on left and text in bubble on the right. */}
-        <p className="text-lg font-semibold mb-4">
-        Pragmatic Software Engineer who thrives on collaboration to build smart, well-executed, and meaningful software
-        solutions. A technical expert who drives tech-first strategies to achieve key business outcomes and cost savings.
-        Empathetic and skilled at breaking down complex technical concepts for non-technical stakeholders. Strong communicator
-        with a passion for supporting others, fostering teamwork, and continuous learning. A proactive go-getter committed to
-        personal and professional growth
-        </p>
-
-        <InSecHeader title="Core Compentices" />
-        <div className="flex flex-col md:flex-row justify-around pt-5 mb-4">
-          <CoreList items={["Node.js", "CI/CD", "Teamwork", "TDD"]} />
-          <CoreList items={["Git", "Code Quality", "Communication", "Adaptability"]} />
-        </div>
-        
         {/* TODO: turn this into a clickable component to scroll through jobs */}
-        <InSecHeader title="Professional Experience" />
+        <SecHeader title="Professional Experience" />
         <div id="BBC" className="pb-4">
           <JobInfo 
             jobdata={{
